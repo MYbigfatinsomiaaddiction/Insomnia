@@ -1,18 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
-* {
+.nav_bar {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #222222;
+    background-color: #3D3F59;
 }
 
 li,a,button {
     font-family: "Lato", sans-serif;
     font-weight: 500;
     font-size: 16px;
-    color:#edf0f1;
+    color:#f2e9e4;
     text-decoration: none;
+    margin-left: auto;
 }
 
 header {
@@ -22,11 +23,13 @@ header {
     padding: 30px 10%;
 }
 
+
+
 .Logo {
     cursor: pointer;
     order: 3;
-    margin-right: auto;
-}
+    margin-right: 20px;
+    }
 
 .links_to_the_stars {
 list-style:none;
@@ -34,7 +37,7 @@ list-style:none;
 
 .links_to_the_stars li {
 display: inline-block;
-padding: 0px 20px;
+padding: 20px 15px;
 }
 
 .links_to_the_stars li a {
@@ -42,19 +45,68 @@ padding: 0px 20px;
 }
 
 .links_to_the_stars li a:hover {
-    color: #0088a9;
+    color: #767086;
 }
 
+.Help {
+    order: 2;
+}
+
+
 button {
-    margin: 20px;
+    margin: 20px ;
 padding: 9px 25px ;
-background-color:rgba(0,136,169,1);
+background-color:#9B8B96;
 border: none;
 border-radius: 50px;
 cursor:pointer;
 transition: all 0.3s ease 0s;
+
 }
 
 button:hover {
-    background-color: rgba(100,100,100,100);
+    background-color: #C9AEA6;
 }
+
+.Title {
+    display: flex;
+    justify-content: center;
+    margin-right: 0px;
+}
+
+.Titl3 {
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-size: 30px ;
+    color: #3D3F59;
+    padding: 50px;
+}
+
+body {
+    background-color: #d1bcb5;
+}
+
+.treating {
+    background-color:#767086;
+    padding: 20px;
+ Height: 500px;
+ margin-right: 100px;
+ margin-left: 100px;
+ border: none;
+ border-radius: 20px;
+}
+
+.sleepinsheep{
+margin-left: 385px;
+margin-bottom: -350;
+margin-top:10px;
+}
+
+.pillows {
+    margin-left: 1000px;
+margin-bottom: -65px;
+}
+
+
+
+/*WRITTEN BY JILLIAN DARMADIß*/
