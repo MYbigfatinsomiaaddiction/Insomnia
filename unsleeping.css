@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url("https://fontlibrary.org//face/liberation-mono");
+
 
 .nav_bar {
     box-sizing: border-box;
@@ -46,6 +48,8 @@ padding: 20px 15px;
 
 .links_to_the_stars li a:hover {
     color: #767086;
+text-decoration: underline;
+text-decoration: underline #767086;
 }
 
 .Help {
@@ -75,11 +79,17 @@ button:hover {
 }
 
 .Titl3 {
-    font-family: "Lato", sans-serif;
+    font-family: "LiberationMonoRegular", sans-serif;
     font-weight: 500;
-    font-size: 30px ;
-    color: #3D3F59;
-    padding: 50px;
+    font-size: 35px ;
+    color: #f2e9e4;
+   display: flex;
+   justify-content: center;
+   padding: 30px;
+   text-decoration: overline underline;
+   text-decoration: overline underline f2e9e4;
+   text-shadow:  3px 3px#9B8B96;
+ 
 }
 
 body {
@@ -92,14 +102,7 @@ body {
  Height: 500px;
  margin-right: 100px;
  margin-left: 100px;
- border: none;
- border-radius: 20px;
-}
-
-.sleepinsheep{
-margin-left: 385px;
-margin-bottom: -350;
-margin-top:10px;
+ border-radius: 40px;
 }
 
 .pillows {
@@ -107,6 +110,37 @@ margin-top:10px;
 margin-bottom: -65px;
 }
 
+.sleepinsheep{
+    height: 500px;
+margin-bottom: -499px;
+margin-left: 180px;
+padding-top: 20px;
+}
+
+.awakesheep {
+    height: 500px;
+    margin-bottom: -335px;
+    margin-left: 600px ;
+}
+
+.Textforsleep {
+    display: flex;
+    justify-content: center;
+    font-family: "LiberationMonoRegular" ,sans-serif;
+    color:#f2e9e4;
+    font-weight: 300px;
+    text-align: center;
+}
+
+.Sheepieimg {
+margin-bottom: 30px;
+margin-top: -50px ;
+border: 5px solid #f2e9e4;
+margin-left: 508px;
+border-radius: 10px;
+}
 
 
-/*WRITTEN BY JILLIAN DARMADIß*/
+
+
+/*WRITTEN BY JILLIAN DARMADI*/
