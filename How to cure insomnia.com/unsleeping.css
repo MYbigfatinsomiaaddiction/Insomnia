@@ -1,33 +1,141 @@
-.body {
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url("https://fontlibrary.org//face/liberation-mono");
+
+
+.nav_bar {
+    box-sizing: border-box;
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #f5ebe0;
-  }
-  
-  .topnav {
-    overflow: hidden;
-    background-color: #333;
-   
-    }  
+    padding: 0;
+    background-color: #3D3F59;
+}
 
-  .topnav a {
-    float: left;
-    width: 50px;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 16px 18px 16px 16px;
+li,a,button {
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color:#f2e9e4;
     text-decoration: none;
-    font-size: 15px;
-    transition: width 1s, height 1s ;
-    width: 50px;
-    height: 35px;
+    margin-left: auto;
+}
 
-  }
-  
-  .topnav a:hover {
-    background-color: #e8e8e4;
-    color: black;
-    width: 100px;
-    height: 50px;
-  }
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+}
 
+
+
+.Logo {
+    cursor: pointer;
+    order: 3;
+    margin-right: 20px;
+    }
+
+.links_to_the_stars {
+list-style:none;
+}
+
+.links_to_the_stars li {
+display: inline-block;
+padding: 20px 15px;
+}
+
+.links_to_the_stars li a {
+    transition: all 0.3s ease 0s;
+}
+
+.links_to_the_stars li a:hover {
+    color: #767086;
+text-decoration: underline;
+text-decoration: underline #767086;
+}
+
+.Help {
+    order: 2;
+}
+
+
+button {
+    margin: 20px ;
+padding: 9px 25px ;
+background-color:#9B8B96;
+border: none;
+border-radius: 50px;
+cursor:pointer;
+transition: all 0.3s ease 0s;
+
+}
+
+button:hover {
+    background-color: #C9AEA6;
+}
+
+.Title {
+    display: flex;
+    justify-content: center;
+    margin-right: 0px;
+}
+
+.Titl3 {
+    font-family: "LiberationMonoRegular", sans-serif;
+    font-weight: 500;
+    font-size: 35px ;
+    color: #f2e9e4;
+   display: flex;
+   justify-content: center;
+   padding: 30px;
+   text-decoration: overline underline;
+   text-decoration: overline underline f2e9e4;
+   text-shadow:  3px 3px#9B8B96;
+ 
+}
+
+body {
+    background-color: #d1bcb5;
+}
+
+.treating {
+    background-color:#767086;
+    padding: 20px;
+ Height: 500px;
+ margin-right: 100px;
+ margin-left: 100px;
+ border-radius: 40px;
+}
+
+.pillows {
+    margin-left: 1000px;
+margin-bottom: -65px;
+}
+
+.sleepinsheep{
+    height: 500px;
+margin-bottom: -499px;
+margin-left: 180px;
+padding-top: 20px;
+}
+
+.awakesheep {
+    height: 500px;
+    margin-bottom: -335px;
+    margin-left: 600px ;
+}
+
+.Textforsleep {
+    display: flex;
+    justify-content: center;
+    font-family: "LiberationMonoRegular" ,sans-serif;
+    color:#f2e9e4;
+    font-weight: 300px;
+    text-align: center;
+}
+
+.Sheepieimg {
+margin-bottom: 30px;
+margin-top: -50px ;
+border: 5px solid #f2e9e4;
+margin-left: 508px;
+border-radius: 10px;
+}
